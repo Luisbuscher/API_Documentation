@@ -186,7 +186,7 @@ Passo 3: Usando o socket.io, use o seguinte trecho de código padronizado para e
 
 Agora é só adaptar o front-end com o back-end usando a sua lógica para enviar os valores corretos para api.
 
-PASSO 5: EXEMPLO DE ENVIO DO FRONT-END para o back-end. Enviando os parametros definidos no como "send_parameters":
+EXEMPLO DE ENVIO DO FRONT-END para o back-end. Enviando os parametros definidos no como "send_parameters":
 
     var url = window.location.href;
     socket.emit('send_parameters', url);
